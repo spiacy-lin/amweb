@@ -1,0 +1,142 @@
+body {
+	font-size: 10pt;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:white;
+	line-height:14pt;
+	padding-left: 5 pt;
+	padding-right:5pt;
+	padding-top:5pt;
+	background: #1b1f22;
+	}
+header {
+	position: relative;
+	width: 650px;
+	border: solid white;
+	border-width: 1px 1px;
+	margin: auto;
+	margin-top: 150px;
+	background-color:#1b1f22;
+}
+h1 {
+	font-size:30pt;
+	text-align:center;
+	padding-top:20pt;
+	padding-bottom:10pt;
+}
+h3 {text-decoration:underline;}
+
+p {
+	font-size:13pt;
+	text-align:center;
+	padding-top:10pt;
+	padding-bottom:10pt;
+}
+.content {
+	width:650px;
+	position:relative;
+	margin:auto;
+}
+
+.content nav ul {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	margin-bottom: 0;
+	list-style: none;
+	padding-left: 0;
+	border: solid 1px white; 
+	border-radius: 4px;
+}
+
+.content nav ul li {
+	padding-left: 0;
+	border-left: solid 1px white; 
+}
+
+.content nav ul li:first-child {  
+	border-left: 0;
+	}
+
+.content nav ul li a {
+	display: block;
+	min-width: 7.5rem;
+	height: 2.75rem;
+	line-height: 2.75rem;
+	padding: 0 1.25rem 0 1.45rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-size: 0.8rem;
+	border-bottom: 0;
+	color: white
+}
+
+.content nav ul li a:hover {
+	background-color: rgba(255, 255, 255, 0.075);
+}
+a {
+		text-decoration: none;
+		color: inherit;
+	}
+	
+.container {
+	position: relative;
+	width:650px;
+	margin:auto;
+	margin-top:200px;
+	border: solid 1px gray;
+	border-radius: 5px;
+	background-color:rgba(255, 255, 255, 0.075);
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+.container p {
+	text-align:left;
+	padding:5px 5px 15px 5px;
+}
+.button {
+  background-color: rgba(255, 255, 255, 0.075);
+  border: outset;
+  width:15px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  
+}
+.button:hover {
+	background-color:#1b1f22;
+	border: inset;
+}
+
+.butt {
+  background-color: rgba(255, 255, 255, 0.075);
+  border: outset;
+  width:150px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  
+}
+.butt:hover {
+	background-color:#1b1f22;
+	border: inset;
+}
+
+.scroll {
+  background-color: rgba(255, 255, 255, 0.075);
+  padding 10px 10px 10px 10px;
+  width: 650px;
+  height: 360px;
+  border: 1px dotted black;
+  overflow: scroll;
+}
+
